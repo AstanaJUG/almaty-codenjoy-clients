@@ -12,9 +12,9 @@ import okhttp3.WebSocketListener;
 public class SnakeClient extends WebSocketListener {
 
     // this is your email
-    private static final String USER_NAME = "eugene.svalukhin@gmail.com";
+    private static final String USER_NAME = "your_user_name";
     // you can get this code after registration on the server with your email
-    private static final String CODE = "639838001213539063";
+    private static final String CODE = "your_user_code";
 
     private static final String CONNECTION_URL = "ws://codenjoy.astanajug.net:8080/codenjoy-contest/ws?user=%s&code=%s";
 
